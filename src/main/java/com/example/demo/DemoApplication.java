@@ -17,5 +17,6 @@ public class DemoApplication {
 	@GetMapping("/ola")
 	public String ola(@RequestParam(value = "nome", defaultValue = "Mundo") String nome) {
 		return String.format("Olá %s!", nome);
+//		return "<html><body><marquee>Teste</marquee></body></html>";
 	}
 }
